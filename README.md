@@ -77,3 +77,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/conspiracy_theory_generate \
+  -H 'Content-Type: application/json' \
+  -d '{"mode":"connect","thing_one":"pharmaceutical companies","thing_two":"social media algorithms","depth":"deep","confidence":"medium"}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/conspiracy_theory_generate`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
