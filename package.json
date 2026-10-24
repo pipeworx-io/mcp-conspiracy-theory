@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-conspiracy-theory",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "conspiracy-theory MCP — wraps StupidAPIs (keyless — no credential needed)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-4c0253c7c377c33bf0a790bd36ad8e5a79f5bf9931768831f94e72777253d85d",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-a8e55bd3f06e563519c2be096641a0c1b7e29cfcbdc59e39dee9abed8cc8344e",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
